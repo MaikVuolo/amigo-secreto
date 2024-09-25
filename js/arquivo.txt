@@ -1,0 +1,60 @@
+// let nomes = [];
+// let sorteado = [];
+
+
+
+
+
+// function adicionar(){   
+//     let nome = document.getElementById("nome-amigo").value;
+//     let lista = document.getElementById("lista-amigos");
+//     nomes.push(nome);
+//     lista.textContent = nomes;
+//     sorteado.push(nome);
+//     nome = "";
+    
+    
+      
+
+// }
+
+// // function sortear(){
+// //     let aleatorio = parseInt(Math.random() * nomes.length);
+// //     while (condition) {
+        
+// //     }
+    
+// //     console.log(sorteado[aleatorio]);
+// // }
+
+// function sortear() {
+//     if(sorteado === nomes){
+
+//     for (let indice = sorteado.length; indice; indice--) {
+
+//         const indiceAleatorio = Math.floor(Math.random() * indice);
+
+//         // atribuição via destructuring
+//         [sorteado[indice - 1], sorteado[indiceAleatorio]] = 
+//             [sorteado[indiceAleatorio], sorteado[indice - 1]];
+
+//         }
+        
+//     }else{
+        
+//     for (let indice = sorteado.length; indice; indice--) {
+
+//         const indiceAleatorio = Math.floor(Math.random() * indice);
+
+//         // atribuição via destructuring
+//         [sorteado[indice - 1], sorteado[indiceAleatorio]] = 
+//             [sorteado[indiceAleatorio], sorteado[indice - 1]];
+
+//         }
+//         let listaSorteio = document.getElementById("lista-sorteio");
+//     listaSorteio.innerText = `${nomes} ===> ${sorteado}` ;
+
+//     }
+    
+// }
+
